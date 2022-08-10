@@ -41,6 +41,7 @@ ul.menu-ul {
     height: 300px;
     align-items: center;
     padding: 15px 15px;
+    transition: all 5s ease;
 }
 .btn {
     background-color: rgb(4, 4, 94);
