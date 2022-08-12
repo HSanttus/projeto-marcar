@@ -21,6 +21,8 @@ header .logo {
     font-weight: bolder;
     font-size: 23px;
     color: #333;
+    height: 60px;
+    width: auto;
 }
 header .navbar ul {
     list-style: none;
