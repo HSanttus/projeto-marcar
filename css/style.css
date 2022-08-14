@@ -6,6 +6,7 @@
     text-transform: capitalize;
     text-decoration: none;
 }
+/* menu dropdown */
 header {
     position: fixed;
     top: 0; left: 0; right: 0;
@@ -39,7 +40,7 @@ header .navbar ul a {
     display: block;
 }
 header .navbar ul a:hover {
-    background: #333;
+    background: #1e5a90;
     color: #fff;
 }
 header .navbar ul li ul {
@@ -71,6 +72,24 @@ header label {
     cursor: pointer;
     display: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsividade */
 
 @media (max-width:991px) {
     header {
