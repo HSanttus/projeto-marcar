@@ -93,7 +93,6 @@ main .banner {margin-top: 30px;
 }
 .content-card .card-item {
     border: 0.5px solid lightgray;
-    border-radius: 10px;
     width: 400px;
     margin: 15px;
     text-align: center;
