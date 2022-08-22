@@ -65,7 +65,6 @@ header .navbar ul li:hover > ul {
 #menu-bar {
     display: none;
 }
-
 header label {
     font-size: 20px;
     color: #333;
@@ -81,6 +80,19 @@ main .banner {margin-top: 30px;
     height: 60vh;
 }
 /* Inicio do feature*/
+.contet-card-01 {
+    margin: auto;
+    margin-top: 50px;
+    padding: 30px;
+    width: 1075px;
+}
+.contet-card-01 h1 {
+    text-align: center;
+}
+.contet-card-01 p {
+   margin-top: 20px;
+   text-align: center;
+}
 .content-card {
     margin: auto;
     max-width: 1200px;
@@ -88,8 +100,7 @@ main .banner {margin-top: 30px;
     background-color: #fff;
     border-radius: 15px;
     padding: 50px;
-    display: flex;
-    
+    display: flex;  
 }
 .content-card .card-item {
     border: 0.5px solid lightgray;
