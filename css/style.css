@@ -74,7 +74,7 @@ header label {
 /*fim do menu dropdown*/
 /* Inicio do main*/
 main .banner {margin-top: 30px;
-    background: url(../img/banner_principal.png);
+    background: url(../img/banner_principal001.png);
     background-size: cover;
     width: 100%;
     height: 60vh;
@@ -166,7 +166,11 @@ footer {
 .footer-col ul li a:hover {
     padding-left: 10px;
 }
+.footer-col p {
+    color: #fff;
+}
 .footer-col .form-sub input{
+    border: none;
     width: 100%;
     border-radius: 17px;
     padding: 10px;
@@ -177,6 +181,7 @@ footer {
     cursor: pointer;
     width: 100%;
     padding: 5px;
+    border: none;
     border-radius: 13px;
 }
 .footer-col .form-sub button:hover {
