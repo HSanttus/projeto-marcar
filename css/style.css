@@ -134,13 +134,9 @@ footer {
     display: flex;
     flex-wrap: wrap;
 }
-.footer-col-logo img {
-    width: 250px;
-    margin: 20px;
-}
 .footer-col {
     width: 25%;
-    padding: 0 15px;
+    padding: 0 20px 0 20px;
 }
 .footer-col h4 {
     font-size: 20px;
@@ -149,6 +145,9 @@ footer {
     font-weight: 500;
     position: relative;
     text-transform: uppercase;
+}
+.footer-col p {
+    color: #fff;
 }
 .footer-col ul {
     list-style: none;
@@ -165,28 +164,6 @@ footer {
 }
 .footer-col ul li a:hover {
     padding-left: 10px;
-}
-.footer-col p {
-    color: #fff;
-}
-.footer-col .form-sub input{
-    border: none;
-    width: 100%;
-    border-radius: 17px;
-    padding: 10px;
-    outline: none;
-}
-.footer-col .form-sub button {
-    margin-top: 7px;
-    cursor: pointer;
-    width: 100%;
-    padding: 5px;
-    border: none;
-    border-radius: 13px;
-}
-.footer-col .form-sub button:hover {
-    background-color: #1e7dd0;
-    
 }
 .footer-col .social-medeia {
     margin-top: 30px;
