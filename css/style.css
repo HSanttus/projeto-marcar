@@ -185,7 +185,19 @@ footer {
     background-color: #fff;
     color: #1e5a90;
 }
-.direito-autorias  {
+.footer-col-logo {
+    width: 25%;
+}
+.footer-col-logo img {
+    margin: 0;
+    width: 250px;
+    margin-bottom: 25px;
+}
+.footer-col-logo p {
+    color: #fff;
+    line-height: 1;
+}
+.direito-autorais  {
     padding: 15px;
     background-color: #14436c;
     color: #fff;
