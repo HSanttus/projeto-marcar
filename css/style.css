@@ -207,7 +207,8 @@ footer {
 }
 .footer-col-logo p {
     color: #fff;
-    line-height: 1;
+    line-height: 28px;
+    
 }
 .direito-autorais  {
     padding: 15px;
