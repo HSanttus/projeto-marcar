@@ -73,11 +73,23 @@ header label {
 }
 /*fim do menu dropdown*/
 /* Inicio do main*/
-main .banner {margin-top: 30px;
+main .banner {
+    position: relative;
+    margin-top: 30px;
     background: url(../img/banner_principal001.png);
     background-size: cover;
     width: 100%;
     height: 60vh;
+}
+.efeciencia {
+    position: absolute;
+    top: 90px;
+    left: 80px;
+    background: url(../img/eficiencia_e_qualidade.png) no-repeat;
+    background-size: 600px;
+    width: 700px;
+    height: 200px;
+
 }
 /* Inicio do feature*/
 .contet-card-01 {
