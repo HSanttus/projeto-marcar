@@ -93,21 +93,10 @@ main .banner {
 }
 /* Inicio do feature*/
 .contet-card-01 {
-    position: relative;
     margin: auto;
     margin-top: 50px;
     padding: 30px;
     width: 1075px;
-    
-}
-.contet-card-01::before {
-    position: absolute;
-    top: 66px;
-    right: 486px;
-    content: '';
-    width: 100px;
-    height: 5px;
-    background-color: #1e5a90;
 }
 .contet-card-01 h1 {
     text-align: center;
@@ -142,27 +131,40 @@ main .banner {
     font-size: 16px;
 }
 /* fim do main */
-/* Inicio Parceirias */
-    .parcerias {
-        margin: 0 auto;
-        height: 500px;
-        width: 1070px;
-        position: relative;
-    }
-    .parcerias h1 {
-        text-align: center;
-    }
-    .parcerias::before {
-        position: absolute;
-        top: 35px;
-        right: 486px;
-        content: '';
-        width: 100px;
-        height: 5px;
-        background-color: #1e5a90;
 
-    }
-/* Fim Parceirias */
+/* Inicio Parceirias */
+.parcerias {
+    height: 300px;
+}
+.parcerias h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.conteiner-parcerias {
+    margin: 0 auto;
+    background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 1)), url(../img/singapore-243669_1920.png) no-repeat top;
+    background-size: cover;
+    height: 250px;
+}
+.img-parcerias {
+    margin: 0 auto;
+    width: 1075px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-parcerias .logo-01 {
+    width: 250px;
+}
+.img-parcerias .logo-02 {
+    margin: 60px;
+    width: 250px;
+}
+.img-parcerias .logo-03 {
+    width: 250px;
+}/* Fim Parceirias */
+
 /* Inicio do footer*/
 footer {
     background-color: #1e5a90;
@@ -249,23 +251,26 @@ footer {
 }
 .whatsapp {
     position: fixed;
-    width: 50px;
-    height: 50px;
-    bottom: 40px;
-    right: 40px;
+    width: 55px;
+    height: 55px;
+    bottom: 30px;
+    right:40px;
     background-color: #25d366; 
-    border-radius: 50px;
-    text-align: center;
+    border-radius: 50%;
     font-size: 44px;
     box-shadow: 1px 1px 2px #888;
 }
 .whatsapp i {
+    position: fixed;
+    top: 538px;
+    left: 1263px;
     color: #fff;
 }
+.whatsapp a {
+    font-size: 12px;
+    color:#fff;
+}
 /* fim do footer */
-
-
-/*Nossos Clientes */
 
 
 /* responsividade */
