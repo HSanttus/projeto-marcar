@@ -251,24 +251,9 @@ footer {
 }
 .whatsapp {
     position: fixed;
-    width: 55px;
-    height: 55px;
-    bottom: 30px;
-    right:40px;
-    background-color: #25d366; 
-    border-radius: 50%;
-    font-size: 44px;
-    box-shadow: 1px 1px 2px #888;
-}
-.whatsapp i {
-    position: fixed;
-    top: 538px;
-    left: 1263px;
-    color: #fff;
-}
-.whatsapp a {
-    font-size: 12px;
-    color:#fff;
+    bottom: 50px;
+    right: 50px;
+    width: 60px;
 }
 /* fim do footer */
 
