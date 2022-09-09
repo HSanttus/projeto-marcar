@@ -4,7 +4,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    text-transform: capitalize;
     text-decoration: none;
 }
 /* menu dropdown */
@@ -94,17 +93,15 @@ main .banner {
 /* Inicio do feature*/
 .contet-card-01 {
     margin: auto;
-    margin-top: 50px;
-    padding: 30px;
+    margin-top: 20px;
     width: 1075px;
 }
 .contet-card-01 h1 {
     text-align: center;
 }
 .contet-card-01 p {
-   margin-top: 20px;
+    margin-top: 15px;
    text-align: center;
-   padding-top: 10px;
 }
 .content-card {
     margin: auto;
