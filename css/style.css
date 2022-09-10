@@ -94,7 +94,8 @@ main .banner {
 .contet-card-01 {
     margin: auto;
     margin-top: 20px;
-    width: 1075px;
+    width: 1060px;
+    background-color: lightslategray;
 }
 .contet-card-01 h1 {
     text-align: center;
@@ -105,21 +106,21 @@ main .banner {
 }
 .content-card {
     margin: auto;
-    max-width: 1200px;
+    width: 1060x;
     height: 450px;
     background-color: #fff;
     border-radius: 15px;
-    padding: 50px;
-    display: flex;  
+    display: flex;
+    background-color: lightslategray;
 }
 .content-card .card-item {
-    width: 400px;
+    width: 265px;
     margin: 15px;
     text-align: center;
     padding: 20px;
 }
 .content-card img {
-    width: 130px;
+    width: 30px;
     height: auto;
 }
 .text-card {
@@ -249,43 +250,11 @@ footer {
 .whatsapp {
     position: fixed;
     bottom: 50px;
-    right: 50px;
-    width: 60px;
+    right: 20px;
+    width: 150px;
 }
 /* fim do footer */
 
 
 /* responsividade */
 
-@media (max-width:991px) {
-    header {
-        padding: 20px;
-    }
-    header label {
-        display: initial;
-    }
-    header .navbar {
-        position: absolute;
-        top: 100%; left: 0; right: 0;
-        background: #fff;
-        border-top: 1px solid rgba(0, 0, 0, 0.1);
-        display: none;
-    }
-    header .navbar ul li {
-        width: 100%;
-    }
-    header .navbar ul li ul {
-        position: relative;
-        width: 100%;
-    }
-    header .navbar ul li ul li {
-        background: #eee;
-    }
-    header .navbar ul li ul li ul{
-        width: 100%;
-        left: 0;
-    }
-    #menu-bar:checked ~.navbar {
-        display: initial;
-    }
-}
