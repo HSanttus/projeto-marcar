@@ -92,42 +92,67 @@ main .banner {
 }
 /* Inicio do feature*/
 .contet-card-01 {
-    margin: auto;
-    margin-top: 20px;
     width: 1060px;
-    background-color: lightslategray;
+    margin: auto;
 }
 .contet-card-01 h1 {
     text-align: center;
+    margin-top: 20px;
 }
 .contet-card-01 p {
-    margin-top: 15px;
-   text-align: center;
-}
-.content-card {
-    margin: auto;
-    width: 1060x;
-    height: 450px;
-    background-color: #fff;
-    border-radius: 15px;
-    display: flex;
-    background-color: lightslategray;
-}
-.content-card .card-item {
-    width: 265px;
-    margin: 15px;
+    margin-top: 20px;
     text-align: center;
-    padding: 20px;
+    margin-bottom: 20px;
 }
-.content-card img {
-    width: 30px;
-    height: auto;
+.contente-card {
+    display: flex;
+    width: 1060px;
+    margin: auto;
+}
+.card-item {
+    width: 265px;
+    height: 249px;
+}
+.card-item .img-feature {
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+.azul-01 {
+    margin-top: 10px;
+    background-color: #4abcd6;
+    width: 265px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+}
+.azul-02 {
+    margin-top: 10px;
+    background-color: #379dbb;
+    width: 265px;
+    height: 20px;
+}
+.azul-03 {
+    margin-top: 10px;
+    background-color: #015277;
+    width: 265px;
+    height: 20px;
+}
+.azul-04 {
+    margin-top: 10px;
+    background-color: #012F4E;
+    width: 265px;
+    height: 20px;
+    border-radius: 0 5px 5px 0;
 }
 .text-card {
-    padding-top: 10px;
-    text-align: justify;
-    font-size: 16px;
+    margin-top: 10px;
 }
+.text-card p {
+    padding: 0 30px 0 30px;
+    font-size: 14px;
+    text-align: justify;
+}
+/* fim do feature */
 /* fim do main */
 
 /* Inicio Parceirias */
@@ -135,8 +160,8 @@ main .banner {
     height: 300px;
 }
 .parcerias h1 {
+    margin: 20px 0 20px 0;
     text-align: center;
-    margin-bottom: 30px;
 }
 .conteiner-parcerias {
     margin: 0 auto;
@@ -146,7 +171,7 @@ main .banner {
 }
 .img-parcerias {
     margin: 0 auto;
-    width: 1075px;
+    width: 1060px;
     height: 250px;
     display: flex;
     align-items: center;
@@ -191,6 +216,7 @@ footer {
 }
 .footer-col p {
     color: #fff;
+    
 }
 .footer-col ul {
     list-style: none;
@@ -215,14 +241,15 @@ footer {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    height: 25px;
-    width: 25px;
+    height: 30px;
+    width: 30px;
     margin: 0 10px 10px 0;
     text-decoration: none;
     border-radius: 50%;
     color: #fff;
     border: 1px solid #fff;
     transition: all 0.5s ease;
+    
 }
 .footer-col .social-medeia a:hover {
     background-color: #fff;
