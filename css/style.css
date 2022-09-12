@@ -282,6 +282,15 @@ footer {
 }
 /* fim do footer */
 
-
-/* responsividade */
+/*A Marcar*/
+/* Hitória da Marcar */
+.a-marcar {
+    border: 1px dotted red;
+    background-color: lightslategray;
+    padding-top: 50px;
+    margin: auto;
+    width: 1060px;
+    text-align: justify;
+    
+}
 
