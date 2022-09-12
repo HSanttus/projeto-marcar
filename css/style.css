@@ -284,13 +284,37 @@ footer {
 
 /*A Marcar*/
 /* Hitória da Marcar */
-.a-marcar {
-    border: 1px dotted red;
-    background-color: lightslategray;
-    padding-top: 50px;
+.historia-a-marcar {
+    padding-top: 100px;
     margin: auto;
     width: 1060px;
-    text-align: justify;
-    
+    height: 600px;
 }
-
+.texto-historia-marcar {
+    width: 70%;
+}
+.texto-historia-marcar h1 {
+    margin-bottom: 20px;
+}
+.texto-historia-marcar p {
+    text-align: justify;
+    line-height: 25px;
+}
+.conteiner-cards {
+    display: flex;
+    margin: auto;
+    width: 1060px;
+    height: 200px;
+}
+.card-missao {
+    width: 353.33px;
+    height: 200px;
+}
+.card-visao {
+    width: 353.33px;
+    height: 200px;
+}
+.card-valores {
+    width: 353.33px;
+    height: 200px;
+}
