@@ -178,15 +178,20 @@ main .banner {
     justify-content: center;
 }
 .img-parcerias .logo-01 {
-    width: 250px;
+    width: 200px;
 }
 .img-parcerias .logo-02 {
     margin: 60px;
-    width: 250px;
+    width: 200px;
 }
 .img-parcerias .logo-03 {
-    width: 250px;
-}/* Fim Parceirias */
+    margin: 30px;
+    width: 200px;
+}
+.img-parcerias .logo-04 {
+    width: 200px;
+}
+/* Fim Parceirias */
 
 /* Inicio do footer*/
 footer {
@@ -307,14 +312,27 @@ footer {
     height: 200px;
 }
 .card-missao {
-    width: 353.33px;
+    display: flex;
+    border: 1px dotted red;
+    background-color: lightslategray;
+    width: 530px;
     height: 200px;
+}
+.card-missao img {
+    align-items: center;
+    width: 150px;
+}
+.card-missao-texto-h1 {
+    text-align: center;
+}
+.card-missao-texto-conteiner {
+    text-align: justify;
+    padding: 10px;
 }
 .card-visao {
-    width: 353.33px;
-    height: 200px;
-}
-.card-valores {
-    width: 353.33px;
+    display: flex;
+    border: 1px dotted red;px;
+    background-color: lightslategray;
+    width: 530px;
     height: 200px;
 }
