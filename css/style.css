@@ -293,7 +293,7 @@ footer {
     padding-top: 100px;
     margin: auto;
     width: 1060px;
-    height: 600px;
+    height: 650px;
 }
 .texto-historia-marcar {
     width: 70%;
@@ -309,17 +309,18 @@ footer {
     display: flex;
     margin: auto;
     width: 1060px;
-    height: 200px;
+    height: 250px;
+    align-items: center;
 }
 .card-missao {
+    margin: 10px;
     display: flex;
-    border: 1px dotted red;
-    background-color: lightslategray;
+    align-items: center;
     width: 530px;
     height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 .card-missao img {
-    align-items: center;
     width: 150px;
 }
 .card-missao-texto-h1 {
@@ -327,12 +328,16 @@ footer {
 }
 .card-missao-texto-conteiner {
     text-align: justify;
-    padding: 10px;
+    padding: 20px;
 }
 .card-visao {
+    margin: 10px;
     display: flex;
-    border: 1px dotted red;px;
-    background-color: lightslategray;
+    align-items: center;
     width: 530px;
     height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.card-visao img {
+    width: 150px;
 }
