@@ -181,14 +181,14 @@ main .banner {
     width: 200px;
 }
 .img-parcerias .logo-02 {
-    margin: 60px;
-    width: 200px;
-}
-.img-parcerias .logo-03 {
     margin: 30px;
     width: 200px;
 }
+.img-parcerias .logo-03 {
+    width: 200px;
+}
 .img-parcerias .logo-04 {
+    margin: 40px;
     width: 200px;
 }
 /* Fim Parceirias */
@@ -342,4 +342,32 @@ footer {
 .card-proposito-texto-conteiner {
     text-align: justify;
     padding: 20px;
+}
+/*Escritório Virtual*/
+.escritorio-virtual {
+    padding-top: 100px;
+    margin: auto;
+    width: 1060px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+.texto-escritorio-virtual {
+    width: 70%;
+}
+.texto-escritorio-virtual h1 {
+    margin-bottom: 20px;
+    padding: 15px;
+}
+.texto-escritorio-virtual p {
+    padding: 15px;
+    text-align: justify;
+    line-height: 25px;
+}
+.img-escritorio-virtual {
+    width: 30%;
+}
+.img-escritorio-virtual img {
+    padding: 15px;
+    width: 310px;
 }
