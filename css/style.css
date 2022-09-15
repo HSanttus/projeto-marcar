@@ -371,3 +371,31 @@ footer {
     padding: 15px;
     width: 310px;
 }
+/*Legalização*/
+.legalizacao {
+    padding-top: 100px;
+    margin: auto;
+    width: 1060px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+.texto-legalizacao {
+    width: 70%;
+}
+.texto-legalizacao h1 {
+    margin-bottom: 20px;
+    padding: 15px;
+}
+.texto-legalizacao p {
+    padding: 15px;
+    text-align: justify;
+    line-height: 25px;
+}
+.img-legalizacao {
+    width: 30%;
+}
+.img-legalizacao img {
+    padding: 15px;
+    width: 310px;
+}
