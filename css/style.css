@@ -287,24 +287,37 @@ footer {
 }
 /* fim do footer */
 
-/*A Marcar*/
+/*Página - A Marcar*/
 /* Hitória da Marcar */
 .historia-a-marcar {
     padding-top: 100px;
     margin: auto;
     width: 1060px;
-    height: 650px;
+    height: 700px;
+    display: flex;
+    align-items: center;
 }
 .texto-historia-marcar {
     width: 70%;
 }
 .texto-historia-marcar h1 {
     margin-bottom: 20px;
+    padding: 15px;
 }
 .texto-historia-marcar p {
+    padding: 15px;
     text-align: justify;
     line-height: 25px;
 }
+.img-historia-marcar {
+    width: 30%;
+}
+.img-historia-marcar img {
+    padding: 15px;
+    width: 310px;
+
+}
+/*A Marcar - Cards */
 .conteiner-cards {
     display: flex;
     margin: auto;
@@ -312,7 +325,7 @@ footer {
     height: 250px;
     align-items: center;
 }
-.card-missao {
+.card-proposito {
     margin: 10px;
     display: flex;
     align-items: center;
@@ -320,24 +333,13 @@ footer {
     height: 200px;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
-.card-missao img {
+.card-proposito-img img {
     width: 150px;
 }
-.card-missao-texto-h1 {
+.card-proposito-texto-h1 {
     text-align: center;
 }
-.card-missao-texto-conteiner {
+.card-proposito-texto-conteiner {
     text-align: justify;
     padding: 20px;
-}
-.card-visao {
-    margin: 10px;
-    display: flex;
-    align-items: center;
-    width: 530px;
-    height: 200px;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-}
-.card-visao img {
-    width: 150px;
 }
