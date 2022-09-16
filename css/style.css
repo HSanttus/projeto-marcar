@@ -399,3 +399,87 @@ footer {
     padding: 15px;
     width: 310px;
 }
+/*Departamento Pessoal*/
+.departamento-pessoal {
+    padding-top: 100px;
+    margin: auto;
+    width: 1060px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+.texto-departamento-pessoal {
+    width: 70%;
+}
+.texto-departamento-pessoal h1 {
+    margin-bottom: 20px;
+    padding: 15px;
+}
+.texto-departamento-pessoal p {
+    padding: 15px;
+    text-align: justify;
+    line-height: 25px;
+}
+.img-departamento-pessoal {
+    width: 30%;
+}
+.img-departamento-pessoal img {
+    padding: 15px;
+    width: 310px;
+}
+/*Departamento Contábil*/
+.departamento-contabil {
+    padding-top: 100px;
+    margin: auto;
+    width: 1060px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+.texto-departamento-contabil {
+    width: 70%;
+}
+.texto-departamento-contabil h1 {
+    margin-bottom: 20px;
+    padding: 15px;
+}
+.texto-departamento-contabil p {
+    padding: 15px;
+    text-align: justify;
+    line-height: 25px;
+}
+.img-departamento-contabil {
+    width: 30%;
+}
+.img-departamento-contabil img {
+    padding: 15px;
+    width: 310px;
+}
+/*Departamento Fiscal*/
+.departamento-fiscal {
+    padding-top: 100px;
+    margin: auto;
+    width: 1060px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+.texto-departamento-fiscal {
+    width: 70%;
+}
+.texto-departamento-fiscal h1 {
+    margin-bottom: 20px;
+    padding: 15px;
+}
+.texto-departamento-fiscal p {
+    padding: 15px;
+    text-align: justify;
+    line-height: 25px;
+}
+.img-departamento-fiscal {
+    width: 30%;
+}
+.img-departamento-fiscal img {
+    padding: 15px;
+    width: 310px;
+}
