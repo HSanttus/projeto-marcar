@@ -498,3 +498,17 @@ footer {
 .img-departamento-pessoal img {
     margin: auto;
 }
+/*Planos*/
+.planos {
+    border: 1px dotted red;
+    padding-top: 100px;
+    margin: auto;
+    width: 1060px;
+    align-items: center;
+}
+.planos h1 {
+    padding: 20px;
+}
+.img-planos img {
+    width: 900px;
+}
