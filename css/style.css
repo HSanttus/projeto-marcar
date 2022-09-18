@@ -483,3 +483,18 @@ footer {
     padding: 15px;
     width: 310px;
 }
+/*Nossos Clientes*/
+.nossos-clientes {
+    padding-top: 100px;
+    margin: auto;
+    width: 1060px;
+    align-items: center;
+}
+.img-departamento-pessoal {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1060px;
+}
+.img-departamento-pessoal img {
+    margin: auto;
+}
