@@ -508,6 +508,7 @@ footer {
     padding: 20px;
 }
 .img-planos img {
+    display: block;
     margin: auto;
     width: 1000px;
 }
