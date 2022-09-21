@@ -11,7 +11,7 @@ header {
     position: fixed;
     top: 0; left: 0; right: 0;
     background-color: #fff;
-    box-shadow: 0 2px 10px black;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
     padding: 0px 70px;
     display: flex;
     align-items: center;
@@ -20,7 +20,6 @@ header {
 }
 header .logo {
     font-weight: bolder;
-    font-size: 23px;
     color: #333;
     height: 60px;
     width: auto;
@@ -35,7 +34,7 @@ header .navbar ul li {
 }
 header .navbar ul a {
     color: #333;
-    font-size: 20px;
+    font-size: 16px;
     padding: 20px;
     display: block;
 }
@@ -74,7 +73,6 @@ header label {
 /* Inicio do main*/
 main .banner {
     position: relative;
-    margin-top: 30px;
     background: url(../img/banner_principal001.png);
     background-size: cover;
     width: 100%;
@@ -504,10 +502,12 @@ footer {
     margin: auto;
     width: 1060px;
     align-items: center;
+
 }
 .planos h1 {
     padding: 20px;
 }
 .img-planos img {
-    width: 900px;
+    margin: auto;
+    width: 1000px;
 }
