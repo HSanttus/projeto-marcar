@@ -408,9 +408,6 @@ footer {
     display: flex;
     align-items: center;
 }
-.texto-departamento-pessoal {
-    width: 70%;
-}
 .texto-departamento-pessoal h1 {
     margin-bottom: 20px;
     padding: 15px;
@@ -424,8 +421,10 @@ footer {
     width: 30%;
 }
 .img-departamento-pessoal img {
-    padding: 15px;
     width: 310px;
+    padding: 15px;
+    
+ 
 }
 /*Departamento Contábil*/
 .departamento-contabil {
@@ -452,8 +451,9 @@ footer {
     width: 30%;
 }
 .img-departamento-contabil img {
-    padding: 15px;
     width: 310px;
+    padding: 15px;
+
 }
 /*Departamento Fiscal*/
 .departamento-fiscal {
@@ -500,7 +500,6 @@ footer {
 }
 /*Planos*/
 .planos {
-    border: 1px dotted red;
     padding-top: 100px;
     margin: auto;
     width: 1060px;
