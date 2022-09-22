@@ -89,6 +89,9 @@ main .banner {
 
 }
 /* Inicio do feature*/
+.feature {
+    height: 480px;
+}
 .contet-card-01 {
     width: 1060px;
     margin: auto;
@@ -154,23 +157,23 @@ main .banner {
 /* fim do main */
 
 /* Inicio Parceirias */
-.parcerias {
-    height: 300px;
-}
-.parcerias h1 {
-    margin: 20px 0 20px 0;
-    text-align: center;
-}
 .conteiner-parcerias {
     margin: 0 auto;
     background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 1)), url(../img/singapore-243669_1920.png) no-repeat top;
     background-size: cover;
     height: 250px;
 }
-.img-parcerias {
-    margin: 0 auto;
+.conteiner-parcerias h1 {
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+    color: #fff;
     width: 1060px;
-    height: 250px;
+}
+.img-parcerias {
+    margin: auto;
+    width: 1060px;
+    height: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -179,14 +182,15 @@ main .banner {
     width: 200px;
 }
 .img-parcerias .logo-02 {
-    margin: 30px;
+    margin-left: 40px;
     width: 200px;
 }
 .img-parcerias .logo-03 {
+    margin-left: 40px;
     width: 200px;
 }
 .img-parcerias .logo-04 {
-    margin: 40px;
+    margin-left: 40px;
     width: 200px;
 }
 /* Fim Parceirias */
@@ -486,15 +490,23 @@ footer {
     padding-top: 100px;
     margin: auto;
     width: 1060px;
+    height: 1200px;
     align-items: center;
 }
-.img-departamento-pessoal {
+.nossos-clientes h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.img-nossos-clientes {
+    
     display: flex;
     flex-wrap: wrap;
     width: 1060px;
 }
-.img-departamento-pessoal img {
+.img-nossos-clientes img {
     margin: auto;
+    width: 250px;
+    padding: 20px;
 }
 /*Planos*/
 .planos {
