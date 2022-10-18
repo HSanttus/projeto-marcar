@@ -6,7 +6,7 @@
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
 }
-/* menu dropdown */
+/* menu dropdown=================================================*/
 header {
     position: fixed;
     top: 0; left: 0; right: 0;
@@ -27,7 +27,6 @@ header .logo {
 header .navbar ul {
     list-style: none;
 }
-
 header .navbar ul li {
     position: relative;
     float: left;
@@ -69,8 +68,9 @@ header label {
     cursor: pointer;
     display: none;
 }
-/*fim do menu dropdown*/
-/* Inicio do main*/
+/*fim do menu dropdown===========================================*/
+/* Inicio do main================================================*/
+/* Inicio do banner==============================================*/
 main .banner {
     position: relative;
     background: url(../img/banner_principal001.png);
@@ -86,9 +86,9 @@ main .banner {
     background-size: 600px;
     width: 700px;
     height: 200px;
-
 }
-/* Inicio do feature*/
+/* fim do banner=================================================*/
+/* Inicio do feature=============================================*/
 .feature {
     height: 480px;
 }
@@ -153,10 +153,9 @@ main .banner {
     font-size: 14px;
     text-align: justify;
 }
-/* fim do feature */
-/* fim do main */
-
-/* Inicio Parceirias */
+/* fim do feature================================================*/
+/* fim do main===================================================*/
+/* Inicio Parceirias=============================================*/
 .conteiner-parcerias {
     margin: 0 auto;
     background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 1)), url(../img/singapore-243669_1920.png) no-repeat top;
@@ -193,9 +192,21 @@ main .banner {
     margin-left: 40px;
     width: 200px;
 }
-/* Fim Parceirias */
+/* Fim Parceirias================================================*/
+/* Inicio open-business==========================================*/
+.open-business {
+    background-color: #041b2a;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.open-business h1 {
+    color: #fff;
 
-/* Inicio do footer*/
+}
+/* fim open-business=============================================*/
+/* Inicio do footer==============================================*/
 footer {
     background-color: #1e5a90;
     padding: 50px 0;
