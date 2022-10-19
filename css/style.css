@@ -197,16 +197,39 @@ main .banner {
 .open-business {
     background-color: #041b2a;
     height: 250px;
+    position: relative;
+}
+.open-business-01 {
+    margin: auto;
+    width: 1060px;
+    height: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.open-business h1 {
-    color: #fff;
 
 }
-/* fim open-business=============================================*/
-/* Inicio do footer==============================================*/
+.open-business-01 h1 {
+    color: #fff;
+    font-size: 50px;
+}
+.btn-open-business-01 {
+    position: absolute;
+    top: 180px; left: 46%;
+}
+.btn-open-business-01 button {
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    border: none;
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.btn-open-business-01 button:hover {
+    background-color: #1e5a90;
+    color: #fff;
+}
+/* fim open-business============================================*/
+/* Inicio do footer=============================================*/
 footer {
     background-color: #1e5a90;
     padding: 50px 0;
