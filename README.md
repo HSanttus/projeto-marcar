@@ -20,4 +20,5 @@ A nova página, nos preocupamos em alinhar todos os textos, ulizando a mesma pal
 
 <img width=300px src="https://github.com/HSanttus/projeto-marcar/blob/main/img/website-marcar-novo.png">
 
-Para acessar o novo site [clique aqui](https://hsanttus.github.io/projeto-marcar/)
+
+Para acessar o novo site <a href="https://hsanttus.github.io/projeto-marcar/" target="_blank"> clique aqui.</a>
