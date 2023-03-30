@@ -68,6 +68,9 @@ header label {
     cursor: pointer;
     display: none;
 }
+.navbar__servicos {
+    cursor: pointer;
+}
 /*fim do menu dropdown===========================================*/
 /* Inicio do main================================================*/
 /* Inicio do banner==============================================*/
@@ -82,7 +85,7 @@ main .banner {
     position: absolute;
     top: 90px;
     left: 80px;
-    background: url(../img/eficiencia_e_qualidade.png) no-repeat;
+    background: url(../img/eficiencia_e_qualidade_cinza.png) no-repeat;
     background-size: 600px;
     width: 700px;
     height: 200px;
