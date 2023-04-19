@@ -231,8 +231,8 @@ main .banner {
     background-color: #1e5a90;
     color: #fff;
 }
-/* fim open-business============================================*/
-/* Inicio do footer=============================================*/
+/* fim open-business=========================================*/
+/* Inicio do footer==========================================*/
 footer {
     background-color: #1e5a90;
     padding: 50px 0;
@@ -330,7 +330,7 @@ footer {
 /* fim do footer */
 
 /*Página - A Marcar*/
-/* Hitória da Marcar */
+/* Hitória da Marcar========================================= */
 .historia-a-marcar {
     
     margin: auto;
@@ -338,11 +338,11 @@ footer {
     height: 600px;
     display: flex;
     align-items: center;
-    border: 1px dotted red;
 }
 .texto-historia-marcar {
     width: 70%;
-    
+    padding-left: 40px;
+    text-align: justify;    
 }
 .texto-historia-marcar h1 {
     margin-bottom: 20px;
@@ -360,16 +360,29 @@ footer {
     padding: 15px;
     width: 310px;
 }
+/* Missão da Marcar ===========================================*/
+.historia-a-marcar-missao-marcar {
+    display: flex;
+}
+.img-historia-marcar-missao-marcar {
+    height: 300px;
+    width: 30%;
+}
+.img-historia-marcar-missao-marcar img {
+    padding: 15px;
+    width: 250px;
+}
 .historia-a-marcar-missao-marcar {
     margin: auto;
     width: 1060px;
     height: 300px;
     display: flex;
     align-items: center;
-    border: 1px dotted red;
 }
 .texto-historia-a-marcar-missao-marcar {
     width: 70%;
+    padding-left: 40px;
+    text-align: justify;
 }
 .texto-historia-a-marcar-missao-marcar h2{
     margin-bottom: 20px;
@@ -380,22 +393,35 @@ footer {
     text-align: justify;
     line-height: 25px;
 }
+/* Visão da Marcar ===========================================*/
 .historia-a-marcar-visao-marcar {
     margin: auto;
     width: 1060px;
     height: 300px;
     display: flex;
     align-items: center;
-    border: 1px dotted red;
 }
+.texto-historia-a-marcar-visao-marcar {
+    width: 70%;
+    padding-left: 40px;
+}
+/* valores da Marcar =========================================*/
 .historia-a-marcar-valores-marcar {
     margin: auto;
     width: 1060px;
     height: 300px;
     display: flex;
     align-items: center;
-    border: 1px dotted red;
 }
+.texto-historia-a-marcar-valores-marcar {
+    width: 70%;
+    padding-left: 40px;
+    text-align: justify;
+}
+.texto-historia-a-marcar-valores-marcar ul {
+    list-style: none;
+}
+
 /*A Marcar - Cards */
 .conteiner-cards {
     display: flex;
