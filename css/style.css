@@ -332,7 +332,6 @@ footer {
 /*Página - A Marcar*/
 /* Hitória da Marcar========================================= */
 .historia-a-marcar {
-    
     margin: auto;
     width: 1060px;
     height: 600px;
@@ -340,7 +339,7 @@ footer {
     align-items: center;
 }
 .texto-historia-marcar {
-    width: 70%;
+    width: 80%;
     padding-left: 40px;
     text-align: justify;    
 }
@@ -353,34 +352,17 @@ footer {
     text-align: justify;
     line-height: 25px;
 }
-.img-historia-marcar {
-    width: 30%;
-}
-.img-historia-marcar img {
-    padding: 15px;
-    width: 310px;
-}
+
 /* Missão da Marcar ===========================================*/
-.historia-a-marcar-missao-marcar {
-    display: flex;
-}
-.img-historia-marcar-missao-marcar {
-    height: 300px;
-    width: 30%;
-}
-.img-historia-marcar-missao-marcar img {
-    padding: 15px;
-    width: 250px;
-}
 .historia-a-marcar-missao-marcar {
     margin: auto;
     width: 1060px;
-    height: 300px;
+    height: 600px;
     display: flex;
     align-items: center;
 }
 .texto-historia-a-marcar-missao-marcar {
-    width: 70%;
+    width: 80%;
     padding-left: 40px;
     text-align: justify;
 }
@@ -397,19 +379,20 @@ footer {
 .historia-a-marcar-visao-marcar {
     margin: auto;
     width: 1060px;
-    height: 300px;
+    height: 600px;
     display: flex;
     align-items: center;
 }
 .texto-historia-a-marcar-visao-marcar {
-    width: 70%;
+    width: 80%;
     padding-left: 40px;
+    text-align: justify;
 }
 /* valores da Marcar =========================================*/
 .historia-a-marcar-valores-marcar {
     margin: auto;
     width: 1060px;
-    height: 300px;
+    height: 600px;
     display: flex;
     align-items: center;
 }
