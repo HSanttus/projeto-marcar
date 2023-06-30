@@ -334,14 +334,15 @@ footer {
 .historia-a-marcar {
     margin: auto;
     width: 1060px;
-    height: 600px;
+    height: 500px;
     display: flex;
-    align-items: center;
+    align-items: center; 
 }
 .texto-historia-marcar {
     width: 80%;
     padding-left: 40px;
-    text-align: justify;    
+    text-align: justify; 
+      
 }
 .texto-historia-marcar h1 {
     margin-bottom: 20px;
@@ -357,7 +358,7 @@ footer {
 .historia-a-marcar-missao-marcar {
     margin: auto;
     width: 1060px;
-    height: 600px;
+    height: 450px;
     display: flex;
     align-items: center;
 }
@@ -379,7 +380,7 @@ footer {
 .historia-a-marcar-visao-marcar {
     margin: auto;
     width: 1060px;
-    height: 600px;
+    height: 450px;
     display: flex;
     align-items: center;
 }
@@ -392,7 +393,7 @@ footer {
 .historia-a-marcar-valores-marcar {
     margin: auto;
     width: 1060px;
-    height: 600px;
+    height: 500px;
     display: flex;
     align-items: center;
 }
