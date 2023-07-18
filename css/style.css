@@ -594,7 +594,14 @@ footer {
     margin: auto;
     width: 250px;
     padding: 20px;
+    filter: grayscale(100%);
+    transition: 0.2s ease;
+    cursor: pointer;
 }
+.img-nossos-clientes img:hover {
+    filter: grayscale(0%);
+}
+
 /*Planos*/
 .planos {
     padding-top: 100px;
